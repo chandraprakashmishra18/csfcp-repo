@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box1{
+            border: 2px solid black;
+            height: 200px;
+            width: 200px;
+            background-color: rgb(169, 188, 59);
+            overflow-y:scroll ;
+            overflow-y: auto;
+            overflow: hidden;
+            transform: translateX(200px);
+
+
+            box-shadow: 20px 10px 10px rgb(0, 0, 0),-20px -10px 10px rgb(97, 176, 36);
+        }
+        #para1{
+            font-size: 50px;
+            font-weight: 200;
+            color: aqua;
+
+            text-shadow: 10px 10px 10px rgb(242, 139, 208);
+        }
+        #box2{
+            border: 2px solid black;
+            height: 200px;
+            width: 200px;
+            background-color: rgb(169, 188, 59);
+
+
+            box-shadow: 20px 10px 10px rgb(0, 0, 0),-20px -10px 10px rgb(52, 85, 26);
+
+        }
+    </style>
+</head>
+<body>
+    <div id="box1">1</div>
+    <p id="para1"> This is para tag content</p>   
+    <span id="box2"></span>
+</body>
+</html>
